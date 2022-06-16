@@ -1,0 +1,174 @@
+/*GENERAL*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;;
+}
+
+#page-container {
+    display: flex;
+    position: relative;
+    width: 1000px;
+    padding: 50px;
+    margin: auto;
+    background-color:hsl(0, 100%, 74%);
+    background-image: url('images/bg-intro-desktop.png');
+}
+/*LEFT SECTION*/
+#left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 80px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: 10px 0;
+    line-height: 45px;
+}
+
+.left-paragraph {
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+}
+
+/*RIGHT SECTION*/
+#right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.paragraph1 {
+    color: white;
+    font-size: 12px;
+    background-color:hsl(248, 32%, 49%);
+    padding: 15px 98px;
+    border-radius: 5px;
+}
+
+.paragraph2 {
+    font-size: 10px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    width: 350px;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 385px;
+    border-radius: 5px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-width: 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#form-and-terms-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#terms-and-services {
+    color: red;
+}
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width:720px) {
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+/*Left Section*/
+
+#left-section {
+    padding: 0;
+    width: auto;
+}
+
+h1 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+    line-height: 25px;
+    text-align: center;
+}
+
+.left-paragraph {
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+}
+
+/*Right Section*/
+#right-section {
+    padding: 0px;
+    padding-top: 30px;
+    width: auto;
+}
+
+#form-and-terms-section {
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+}
+
+.paragraph1 {
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    width: auto;
+}
+
+.paragraph2 {
+    font-size: 7px;
+    text-align: center;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 10px;
+    width: 86%;
+}
+
+button {
+    width: 100%;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
